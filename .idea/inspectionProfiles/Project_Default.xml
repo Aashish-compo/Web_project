@@ -1,0 +1,80 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="107" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="django" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+          <option value="E131" />
+          <option value="E303" />
+          <option value="E402" />
+          <option value="W292" />
+          <option value="E302" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="input" />
+          <option value="sum" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="django.db.models.fields.related.ForeignKey.first_name" />
+          <option value="accounts.models.Company.objects" />
+          <option value="accounts.models.Otp.objects" />
+          <option value="weight.models.Employee.objects" />
+          <option value="accounts.models.Address.objects" />
+          <option value="accounts.models.Contact.objects" />
+          <option value="heli_partners.models.FlightRecord.objects" />
+          <option value="common.models.ConfigChoice.*" />
+          <option value="heliapp.models.UserAirlines.*" />
+          <option value="heliapp.models.Helicopter.*" />
+          <option value="heliapp.models.Price.*" />
+          <option value="heliapp.models.Airlines.*" />
+          <option value="payment.models.Invoice.*" />
+          <option value="heli_partners.models.Passengers.*" />
+          <option value="heli_partners.models.Location.*" />
+          <option value="heli_partners.models.PartnersGallery.*" />
+          <option value="system.models.ConfigChoice.objects" />
+          <option value="system.models.ConfigCategory.objects" />
+          <option value="equipment.models.Review.objects" />
+          <option value="equipment.models.Equipment.*" />
+          <option value="equipment.models.Gallery.*" />
+          <option value="equipment.models.Rates.*" />
+          <option value="equipment.models.Favourite.*" />
+          <option value="promotion.models.Promotion.*" />
+          <option value="booking.models.BookingItem.*" />
+          <option value="equipment.models.Featured.*" />
+          <option value="equipment.models.Attachment.*" />
+          <option value="promotion.models.Offer.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
